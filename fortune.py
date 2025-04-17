@@ -30,7 +30,7 @@ def main():
         message = random.choice(fortunes[mood])
         print(f"\nYour fortune: {message} \n")
     else:
-        print("\nHmm, I don’t know that mood. Try happy/sad/neutral.\n")
+        print("\nHmm, I don’t know that mood. Try happy/sad/neutral/stressed.\n")
 
 
 if __name__ == "__main__":
